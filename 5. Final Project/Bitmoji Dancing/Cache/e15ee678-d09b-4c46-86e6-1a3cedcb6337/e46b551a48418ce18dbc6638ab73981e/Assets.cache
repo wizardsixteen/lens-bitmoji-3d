@@ -1,0 +1,16 @@
+- !<AssetCache/e46b551a-4841-8ce1-8dbc-6638ab73981e>
+  AssetFiles:
+    42f90bc0-aae5-46ce-a120-d260296bca58: e15ee678-d09b-4c46-86e6-1a3cedcb6337/e46b551a48418ce18dbc6638ab73981e/Data/Head.mesh
+  Assets:
+    - !<FileMesh/42f90bc0-aae5-46ce-a120-d260296bca58>
+      PackagePath: ""
+      Info: !<MeshInfo/00000000-0000-0000-0000-000000000000>
+        Triangles: 686
+        Vertices: 410
+        Blendshapes:
+          []
+        Joints: 0
+  SourceHash: e46b551a48418ce18dbc6638ab73981e
+  FileHash: 4d58f2922ceda4e6bc1b9406ea4b1487
+  NativePackageItems:
+    []

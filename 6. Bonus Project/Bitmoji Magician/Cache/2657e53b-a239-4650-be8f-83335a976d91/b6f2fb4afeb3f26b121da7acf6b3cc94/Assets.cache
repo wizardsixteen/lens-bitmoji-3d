@@ -1,0 +1,16 @@
+- !<AssetCache/b6f2fb4a-feb3-f26b-121d-a7acf6b3cc94>
+  AssetFiles:
+    9672d2af-c4a5-4ed4-94fe-12611ed36a20: 2657e53b-a239-4650-be8f-83335a976d91/b6f2fb4afeb3f26b121da7acf6b3cc94/Data/C_hat_magic_GEO.mesh
+  Assets:
+    - !<FileMesh/9672d2af-c4a5-4ed4-94fe-12611ed36a20>
+      PackagePath: ""
+      Info: !<MeshInfo/00000000-0000-0000-0000-000000000000>
+        Triangles: 420
+        Vertices: 479
+        Blendshapes:
+          []
+        Joints: 1
+  SourceHash: b6f2fb4afeb3f26b121da7acf6b3cc94
+  FileHash: 73f3a7c8ac6186bf7805d9c7afbcaa65
+  NativePackageItems:
+    []

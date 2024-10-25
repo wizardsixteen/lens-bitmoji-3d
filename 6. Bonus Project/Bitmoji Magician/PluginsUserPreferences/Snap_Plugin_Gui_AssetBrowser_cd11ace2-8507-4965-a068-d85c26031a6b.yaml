@@ -1,0 +1,51 @@
+CollapsedEntities:
+  type: stringset
+  value:
+    size: 45
+    values:
+      - Base.png
+      - Bitmoji Joint Attachment.lsc
+      - BitmojiAnimation.lspkg
+      - BitmojiAnimation.lspkg/AnimationAssets
+      - BitmojiAnimation.lspkg/AnimationAssets/BaseLayer.animationAsset
+      - BitmojiAnimation.lspkg/AnimationAssets/BaseLayer_heavy.animationAsset
+      - BitmojiAnimation.lspkg/Bitmoji 3D.v6.2.0.lsc
+      - BitmojiAnimation.lspkg/BitmojiAnimationController.js
+      - BitmojiAnimation.lspkg/BitmojiAnimationController.prefab
+      - BitmojiAnimation.lspkg/package.native
+      - Disc.mesh
+      - Echopark.hdr
+      - Magician Pack/.hidden
+      - Magician Pack/.hidden/baton.ss_graph
+      - Magician Pack/Bitmoji Magician Pack Resources
+      - Magician Pack/Bitmoji Magician Pack Resources/Meshes
+      - Magician Pack/Bitmoji Magician Pack Resources/Meshes/baton
+      - Magician Pack/Bitmoji Magician Pack Resources/Meshes/baton/Material
+      - Magician Pack/Bitmoji Magician Pack Resources/Meshes/baton/Material/baton.mat
+      - Magician Pack/Bitmoji Magician Pack Resources/Meshes/baton/Meshes
+      - Magician Pack/Bitmoji Magician Pack Resources/Meshes/baton/Meshes/C_baton_GEO.mesh
+      - Magician Pack/Bitmoji Magician Pack Resources/Meshes/hat_magic
+      - Magician Pack/Bitmoji Magician Pack Resources/Meshes/hat_magic/Material
+      - Magician Pack/Bitmoji Magician Pack Resources/Meshes/hat_magic/Material/hat_magic.mat
+      - Magician Pack/Bitmoji Magician Pack Resources/Meshes/hat_magic/Meshes
+      - Magician Pack/Bitmoji Magician Pack Resources/Meshes/hat_magic/Meshes/C_hat_magic_GEO.mesh
+      - Magician Pack/Bitmoji Magician Pack Resources/Meshes/table_magic
+      - Magician Pack/Bitmoji Magician Pack Resources/Meshes/table_magic/Material
+      - Magician Pack/Bitmoji Magician Pack Resources/Meshes/table_magic/Material/table_magic.mat
+      - Magician Pack/Bitmoji Magician Pack Resources/Meshes/table_magic/Meshes
+      - Magician Pack/Bitmoji Magician Pack Resources/Meshes/table_magic/Meshes/C_table_GEO.mesh
+      - Magician Pack/Bitmoji Magician Pack Resources/Meshes/table_magic/Meshes/C_tablecloth_GEO.mesh
+      - Magician Pack/Bitmoji Magician Pack Resources/Textures
+      - Magician Pack/Bitmoji Magician Pack Resources/Textures/baton_color.png
+      - Magician Pack/Bitmoji Magician Pack Resources/Textures/hat_magic_color.png
+      - Magician Pack/Bitmoji Magician Pack Resources/Textures/table_magic_color.png
+      - Magician Pack/BitmojiMagician__PLACE_IN_OBJECTS_PANEL.prefab
+      - MaterialParams.png
+      - Matte Shadow.mat
+      - Normal.png
+      - PBR.mat
+      - baton_bindrig.prefab
+      - hat_magic_bindrig.prefab
+      - matte_shadow.ss_graph
+      - pbr.ss_graph
+  options: 4

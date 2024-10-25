@@ -1,0 +1,16 @@
+- !<AssetCache/eceedcc1-2f65-adc7-8d58-129a6ee3029b>
+  AssetFiles:
+    56486bf7-6b81-4800-9977-892816042096: ad67373f-88b5-4dc6-acb2-aec399c38e36/eceedcc12f65adc78d58129a6ee3029b/Data/Sclera.mesh
+  Assets:
+    - !<FileMesh/56486bf7-6b81-4800-9977-892816042096>
+      PackagePath: ""
+      Info: !<MeshInfo/00000000-0000-0000-0000-000000000000>
+        Triangles: 720
+        Vertices: 407
+        Blendshapes:
+          []
+        Joints: 0
+  SourceHash: eceedcc12f65adc78d58129a6ee3029b
+  FileHash: 595acdd8c46d46b5716d0b38bec5b9d8
+  NativePackageItems:
+    []

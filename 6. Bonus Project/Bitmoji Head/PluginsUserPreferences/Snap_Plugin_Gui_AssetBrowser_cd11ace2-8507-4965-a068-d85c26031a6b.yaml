@@ -1,0 +1,9 @@
+CollapsedEntities:
+  type: stringset
+  value:
+    size: 3
+    values:
+      - Bitmoji 3D.lsc
+      - Bitmoji Head.lsc
+      - Echopark.hdr
+  options: 4

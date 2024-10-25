@@ -1,0 +1,60 @@
+backCameraMultimedia:
+  type: string
+  value: PreviewResources.bundle/Images/World/Cactus.jpg
+  options: 4
+cameraType:
+  type: int
+  value: 1
+  options: 4
+deviceType:
+  type: string
+  value: Unknown
+  options: 4
+frameRate:
+  type: int
+  value: 30
+  options: 4
+frontCameraMultimedia:
+  type: string
+  value: PreviewResources.bundle/Video/Idle/Idle.mp4
+  options: 4
+fullscreenSpectaclesSimulation:
+  type: bool
+  value: true
+  options: 4
+lastPosition:
+  type: vec3
+  value: {x: 123.332619, y: -155.775330, z: 72.291832}
+  options: 4
+lastRotation:
+  type: vec3
+  value: {x: -18.750458, y: 33.299759, z: -0.000196}
+  options: 4
+mirrorHorizontally:
+  type: bool
+  value: false
+  options: 4
+previewSource:
+  type: string
+  value: "C:/Program Files/Snap Inc/Lens Studio/InteractiveResources.bundle/Scenes/Plane"
+  options: 4
+previewType:
+  type: string
+  value: Interactive
+  options: 4
+recordInput:
+  type: bool
+  value: false
+  options: 4
+recordTrackingData:
+  type: bool
+  value: false
+  options: 4
+simulatedDevice:
+  type: string
+  value: No Simulation
+  options: 4
+stereoEye:
+  type: string
+  value: Center
+  options: 4

@@ -1,0 +1,13 @@
+- !<AssetCache/6000c021-b889-b798-7127-529ca7d5c546>
+  AssetFiles:
+    8f974eb0-d392-40d1-b2fb-d74e271c20e4: f4dd45b6-dd15-4751-8e46-34a7a99a0988/6000c021b889b7987127529ca7d5c546/Data/Logo - Orange.png
+  Assets:
+    - !<FileTexture/8f974eb0-d392-40d1-b2fb-d74e271c20e4>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 1000
+        Height: 1000
+  SourceHash: 6000c021b889b7987127529ca7d5c546
+  FileHash: 147577ff3d2fb76bb55bfb38f7396897
+  NativePackageItems:
+    []

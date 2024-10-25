@@ -1,0 +1,13 @@
+- !<AssetCache/d2910974-8499-7f09-2875-f65a9e3aa7bb>
+  AssetFiles:
+    93223635-2371-4b06-b200-b664c64d9adf: 2a3a9b06-44eb-4c60-9059-d2b78b6b27e8/d291097484997f092875f65a9e3aa7bb/Data/Logo - Violet.png
+  Assets:
+    - !<FileTexture/93223635-2371-4b06-b200-b664c64d9adf>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 1000
+        Height: 1000
+  SourceHash: d291097484997f092875f65a9e3aa7bb
+  FileHash: d3c06e4b62d09a540d66ef7c6e80f9ea
+  NativePackageItems:
+    []

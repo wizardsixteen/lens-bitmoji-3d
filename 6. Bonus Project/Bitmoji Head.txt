@@ -1,0 +1,30 @@
+SNAP CHAT LENS STUDIO BITMOJI HEAD
+
+-- x --
+
+1. Go to Assets Library and Add "Bitmoji 3D" and "Bitmoji Head"
+
+2. Add both Bitmoji 3D and Bitmoji Head to the scene.
+
+3. Drag and drop the Bitmoji 3D into Bitmoji Head on the respective slot. Same for the Camera Object.
+
+4. Delete the default lights.
+
+5. Set "Attach to head".
+
+
+Have Fun Snapping! :)
+
+-- x --
+
+Karthik Narayanan	Creative Officer, Riglabs Collective
+
+LinkedIn		https://linkedin.com/in/wizardsixteen
+
+Instagram		https://instagram.com/wizardsixteen
+
+WhatsApp		wa.me/917306728337
+
+-- x --
+
+Riglabs Collective © 2024

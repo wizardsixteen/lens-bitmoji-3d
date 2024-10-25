@@ -1,0 +1,109 @@
+- !<ObjectPrefab/0edb83b8-aa24-4147-8665-2cbbb92f90d0>
+  PackagePath: ""
+  objects:
+    - !<own> 51dbb1c7-4cba-44d6-9bd9-5c07fb3a15a7
+  LazyLoading: false
+  RetainAssets: true
+- !<ScriptComponent/091d4b53-80c3-4464-81a8-9d3a92843c98>
+  PrefabRemaps:
+    []
+  Name: BitmojiAnimationController
+  Enabled: true
+  ScriptAsset: !<reference> c05e93ee-d5ec-402f-a6ee-f8635404097a
+  ScriptInputsDefault:
+    animationAsset: true
+    heavyAnimationAsset: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      bitmoji3dComponent: !<reference.ScriptComponent> b5a7902a-1f25-46c6-91df-9aa8f442c76d
+      animationPlayer: !<reference.AnimationPlayer> 4509dcaa-bd0d-4dd1-8e68-4de7dd85139b
+      animationAsset: !<reference.AnimationAsset> 986b30f5-a6bd-4ba3-8193-d3994ac96a2d
+      heavyAnimationAsset: !<reference.AnimationAsset> 4f1d0a2b-e18c-4930-86b4-376d3301f8d1
+  ScriptTypes:
+    "":
+      {}
+- !<AnimationPlayer/4509dcaa-bd0d-4dd1-8e68-4de7dd85139b>
+  PrefabRemaps:
+    []
+  Name: Animation Player
+  Enabled: true
+  Autoplay: true
+  ClipRangeType: Frames
+  AnimationClips:
+    - !<AnimationClip/00000000-0000-0000-0000-000000000000>
+      AnimationAsset: !<reference> 986b30f5-a6bd-4ba3-8193-d3994ac96a2d
+      Name: Clip 0
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 105.999992
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+- !<SceneObject/51dbb1c7-4cba-44d6-9bd9-5c07fb3a15a7>
+  PrefabRemaps:
+    []
+  Name: BitmojiAnimationController
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: -80.000000, z: -150.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> a5958124-a733-403b-9087-f4b89049fdf8
+  Components:
+    - !<own> 4509dcaa-bd0d-4dd1-8e68-4de7dd85139b
+    - !<own> 091d4b53-80c3-4464-81a8-9d3a92843c98
+- !<SceneObject/a5958124-a733-403b-9087-f4b89049fdf8>
+  PrefabRemaps:
+    []
+  Name: Bitmoji 3D
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b5a7902a-1f25-46c6-91df-9aa8f442c76d
+- !<ScriptComponent/b5a7902a-1f25-46c6-91df-9aa8f442c76d>
+  PrefabRemaps:
+    []
+  Name: Bitmoji 3D
+  Enabled: true
+  ScriptAsset: !<reference> 7cacf1cf-7a4b-431d-9a9c-de174fb89c59
+  ScriptInputsDefault:
+    bitmojiType: true
+    friendsComponent: true
+    friendIndex: true
+    mode: true
+    bodyIndex: true
+    alignToBody: true
+    mixamoAnimation: true
+    autoDownload: true
+    castShadow: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      bitmojiType: 0
+      friendsComponent: !<reference.Component> 00000000-0000-0000-0000-000000000000
+      friendIndex: 0
+      mode: default
+      bodyIndex: 0
+      alignToBody: false
+      mixamoAnimation: true
+      autoDownload: true
+      castShadow: true
+  ScriptTypes:
+    "":
+      {}

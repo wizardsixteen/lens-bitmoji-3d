@@ -1,0 +1,44 @@
+SNAP CHAT LENS STUDIO BITMOJI MAGICIAN
+
+-- x --
+
+1. Go to Asset Library, add Magician Pack and Bitmoji Joint Attachment.
+
+2. Add the "BitmojiMagician__PLACE_IN_OBJECTS_PANEL" into the scene.
+
+3. Create prefabs of the 'baton_binding" and "hat_magic"binding", by dragging the joint from scene and dropping it in the Asset Browser.
+
+4. Open the "GenAI Suite" > GenAI > Bitmoji Animation and select the "Exited Reveal" animation and import to project. This will auto import the animation to the scene as well.
+
+5. on the BitMojiAnimationController on scene panel, select the Playback Mode to "Single".
+
+6. Add the Bitmoji Joint Attachment to the scene, and add the 'Bitmoji 3D" from the scene panel to the Bitmoji slot in the Bitmoji Joint Attachment.
+
+7. On the Bitmoji Joint Attachment, Set the Prefab as "baton_binding" and check "has Animation", select the BitmojiAnimationController as the Animation Player.
+
+8. On the Camera Object, add a device tracking component.
+
+9. Offset the values in the Bitmoji Joint Atachment to "-0.02, 0.11, 0.10" for position and "25.00, 25.00, 0.00" for rotation.
+
+10. Duplicate the Bitmoji Joint Attachment and add the hat_magic_binding as prefab. Set the Joint Name to "Head". Set the offset with values, "0.15, 0.00, -0.01" for position and "180.00, 0.00, 0.00" for rotation.
+
+11. Add a Disc object, switch material to Matte Shadow by searching and adding it. Change the Mesh Shadow Mode to "Receiver"
+
+12. Go to Lighting > Light, and enable Shadows, Set the Blur Radius to maximum.
+
+
+Have Fun Snapping! :)
+
+-- x --
+
+Karthik Narayanan	Creative Officer, Riglabs Collective
+
+LinkedIn		https://linkedin.com/in/wizardsixteen
+
+Instagram		https://instagram.com/wizardsixteen
+
+WhatsApp		wa.me/917306728337
+
+-- x --
+
+Riglabs Collective © 2024

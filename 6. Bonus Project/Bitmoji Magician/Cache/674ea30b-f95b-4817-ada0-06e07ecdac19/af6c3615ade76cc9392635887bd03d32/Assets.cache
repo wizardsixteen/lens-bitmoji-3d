@@ -1,0 +1,13 @@
+- !<AssetCache/af6c3615-ade7-6cc9-3926-35887bd03d32>
+  AssetFiles:
+    8646b0cd-e171-4456-8544-679352b25128: 674ea30b-f95b-4817-ada0-06e07ecdac19/af6c3615ade76cc9392635887bd03d32/Data/baton_color.png
+  Assets:
+    - !<FileTexture/8646b0cd-e171-4456-8544-679352b25128>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 128
+        Height: 128
+  SourceHash: af6c3615ade76cc9392635887bd03d32
+  FileHash: 835cb6e830c66561f9c691f869be0608
+  NativePackageItems:
+    []

@@ -1,0 +1,82 @@
+SNAP CHAT LENS STUDIO BITMOJI 3D IMAGE & WORLD TRACKER EFFECT
+
+-- x --
+
+1. Take a Snapchat Account and login.
+
+2. Go to "ar.snap.com/download" and download the Lens Studio 5.2 or latest.
+
+3. Go to "developer.snap.com/lens-studio/home" > Documentation > Platform Solutions > Bitmoji Avatar > Animation Bitmoji 3D > Download the FBX.
+
+4. Go to "mixamo.com" and create an account.
+
+5. Upload your FBX zip file from snapchat to mixamo. Wait for maxiamo to process the rig.
+
+6. Choose a custom animation for each of Idle, Wave, Dance & Stumble, and download the animation as FBX file.
+
+7. Open Lens Studio 5.2 and login.
+
+8. Create a new default project.
+
+9. Drag and drop all the animations. While import uncheck "FBX Legacy Importer".
+
+10. Go to Asset Library and add "Bitmoji 3D" component.
+
+11. Drag and drop the component to the scene.
+
+12. Select the asset and drop it into scene. Check "Adapt to Mixamo"
+
+13. Add the animation clips in order, Idle (Loop), Wave (Single), Dance (Loop) & Stumble (Single).
+
+14. Go to Asset Library and add "Animation State Manager" and add it to the scene.
+
+15. Select the Animation State Manager and add the Bitmoji 3D as animation player. Enable "Create from Clips", "Parameters Edit", 'Transitions Edit".
+
+16. Add "isDancing" as parameter name, and transition name as "Idle" for now.
+
+17. Add a Behavior script in the scene, and change the event type to "Touch Start" & response type to "Call Object API". Set the Behaviour name as "Touch Start".
+
+18 Set function name as "setParameter", argument 1 as string "isDancing", argument 2 as bool to "true".
+
+19. On Animation State Manager > Transitions, Click "Add Value" > from - Specific State "Idle" to - Specific State "Dance" with "0.20" duration. Add a condition "Add Value" with name - "isDancing", type - "bool" and function - "Is True". This will create a transition from Idle to Dance once screen is touched.
+
+20. Create a copy of Behavior script and set its Event Type to Touch End, Argument bool value to "false". Set the Behavior name as "Touch Stop".
+
+21. On Animation State Manager > Transitions, Click "Add Value" > from - Specific State "Dance" to - Specific State "Stumble" with "0.2" duration. Add a condition "Add Value" with name - "isDancing", type - "bool" and function - "Is False". This will create a transition from Dance to Stumble once screen touch is removed.
+
+21. On Animation State Manager > Transitions, Click "Add Value" > from - Specific State "Stumble" to - Specific State "Idle" with "0.2" duration. Also add an Exit Time of "0.8". This will create a transition from Stumble to Idle automatically.
+
+22. On Animation State Manager > add a parameter "waveTrigger", set the type to "Trigger".
+
+23. On Animation State Manager > Transitions, Click "Add Value" > from - Specific State "Idle" to - Specific State "Wave" with "0.2" duration. Add a condition "Add Value" with name - "waveTrigger", type - "bool" and function - "Is False". This will create a transition from Idle to Wave.
+
+24. On Animation State Manager > Transitions, Click "Add Value" > from - Specific State "Wave" to - Specific State "Idle" with "0.2" duration. Also add an Exit Time of "1.0". This will create a transition from Wave to Idle.
+
+25. Create a copy of Behavior script and set its Event Type to "Looking At". Set the Looking Object as "Camera Object" and Look Target as "Bitmoji 3D". Also set the Angle to "30.00". Set the Behavior name as "Looking At". Set the Function Name as "setTrigger" with argument 1 as "string" with string value of "waveTrigger" and argument 2 to "none".
+
+26. Go to Asset Library, add a "World Object Controller", and add it into the scene. Delete the child element "Sphere [REPLACE ME]" and add the Bitmoji 3D in that position.
+
+27. Go to Lighting > Light. Enable "Shadows". Set Blur Radius to maximum.
+
+28. Add a "Image Marker" tracker to the scene. Make the World Object Controller a child of Image Marker and set its scale to "0.25" on x, y, z axes and also rotate "90.00" on x axis.
+
+29. On Asset Browser, select the "Image Marker [EDIT_ME]" and choose a sticker of choice.
+
+30. Click on "Project Settings", Give a Lens Name, Icon & a Video in order to Publish the lens on to the Snap Chat app. Also go to "Mobile", set Activation Camera to "Rear Camera" and Camera Hint to "Find Marker".
+
+
+Have Fun Snapping! :)
+
+-- x --
+
+Karthik Narayanan	Creative Officer, Riglabs Collective
+
+LinkedIn		https://linkedin.com/in/wizardsixteen
+
+Instagram		https://instagram.com/wizardsixteen
+
+WhatsApp		wa.me/917306728337
+
+-- x --
+
+Riglabs Collective © 2024

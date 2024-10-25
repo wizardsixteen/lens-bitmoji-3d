@@ -1,0 +1,13 @@
+- !<AssetCache/3d9ed33d-d621-add4-790e-335cd5a22f81>
+  AssetFiles:
+    7b77088a-53c7-4876-92a4-c1b0fbf51d18: 0a2a712c-ab30-410c-93a7-f1138b12b405/3d9ed33dd621add4790e335cd5a22f81/Data/Logo - Teal.png
+  Assets:
+    - !<FileTexture/7b77088a-53c7-4876-92a4-c1b0fbf51d18>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 1000
+        Height: 1000
+  SourceHash: 3d9ed33dd621add4790e335cd5a22f81
+  FileHash: a0894b3bcdd1bd9e60f9780ddb6e9489
+  NativePackageItems:
+    []

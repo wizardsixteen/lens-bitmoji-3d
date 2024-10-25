@@ -1,0 +1,13 @@
+- !<AssetCache/d0b785c5-6563-ef1a-e30c-2698aad071c6>
+  AssetFiles:
+    d0f38eb8-4f5b-4103-92e6-411516b7679e: 4db01363-be2d-4518-91ad-8132ab6722a7/d0b785c56563ef1ae30c2698aad071c6/Data/Logo - Blue.png
+  Assets:
+    - !<FileTexture/d0f38eb8-4f5b-4103-92e6-411516b7679e>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 1000
+        Height: 1000
+  SourceHash: d0b785c56563ef1ae30c2698aad071c6
+  FileHash: 5494b323c6cc721374781737bc7a46f5
+  NativePackageItems:
+    []

@@ -1,0 +1,242 @@
+- !<AssetCache/c0fcefac-d200-60ba-ea55-5c70b8888227>
+  AssetFiles:
+    {}
+  Assets:
+    []
+  SourceHash: c0fcefacd20060baea555c70b8888227
+  FileHash: 68925c68cd2ca0ccd3cefc5f84c40ff6
+  NativePackageItems:
+    - !<own> d9e30cb9-3d7b-4db1-80ce-0f656e86abf2
+    - !<own> 66b46d73-4d45-4efb-b4e2-0c7f3b2a2809
+    - !<own> f2e0599f-6077-425b-818f-06bb799a7d0b
+    - !<own> 05378e5c-d8ba-4e11-9786-df863d236af7
+    - !<own> c4d8f53a-578b-4835-9232-3ae9b41ae57a
+    - !<own> ee29d659-ab30-49a1-b03d-4acbf18df430
+- !<ScriptAssetData/0384c15c-a45d-4ed6-84ce-8402b12235bc>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    animationAsset: false
+    animationPlayer: false
+    bitmoji3dComponent: false
+    heavyAnimationAsset: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - bitmoji3dComponent: !<reference.ScriptComponent> ea1221b5-1f9b-41ff-8f0d-57765a0e2502
+      animationPlayer: !<reference.AnimationPlayer> a156158d-c2f9-4343-8ebe-7f357ab6ba4f
+      animationAsset: !<reference.AnimationAsset> 986b30f5-a6bd-4ba3-8193-d3994ac96a2d
+      heavyAnimationAsset: !<reference.AnimationAsset> 4f1d0a2b-e18c-4930-86b4-376d3301f8d1
+  ScriptTypes:
+    -
+      {}
+- !<AssetImportMetadata/05378e5c-d8ba-4e11-9786-df863d236af7>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 0edb83b8-aa24-4147-8665-2cbbb92f90d0
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 0edb83b8-aa24-4147-8665-2cbbb92f90d0
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    ObjectPrefab: !<own> c4c4c215-71f1-4e44-80a8-bbed4d975bc7
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/facae4e6-82a4-4f2e-879e-22f84f97d957>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/0735aec9-ed61-4c71-8b3d-dd49fecac692>
+  PrefabRemaps:
+    []
+  Name: BitmojiAnimationController
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: -80.000000, z: -150.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 39e435c8-c0bd-462b-b2ad-3e039cf15374
+  Components:
+    - !<own> 7a8a92e1-9ab3-4022-b9ea-502da9c13264
+    - !<own> 6a61cc01-2755-4470-8bdf-afdd643d8945
+- !<SceneObject/39e435c8-c0bd-462b-b2ad-3e039cf15374>
+  PrefabRemaps:
+    []
+  Name: Bitmoji 3D
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 7a93b195-3fad-4981-91b2-dee652f908ce
+- !<AssetImportMetadata/66b46d73-4d45-4efb-b4e2-0c7f3b2a2809>
+  ImportedAssetIds:
+    AnimationAsset: !<reference> 4f1d0a2b-e18c-4930-86b4-376d3301f8d1
+  ImporterName: AnimationAssetImporter
+  PrimaryAsset: !<reference> 4f1d0a2b-e18c-4930-86b4-376d3301f8d1
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/1fec5a8f-34c4-4938-87e3-0e1ac263dad2>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptComponent/6a61cc01-2755-4470-8bdf-afdd643d8945>
+  PrefabRemaps:
+    []
+  Name: BitmojiAnimationController
+  Enabled: true
+  ScriptAsset: !<reference> c05e93ee-d5ec-402f-a6ee-f8635404097a
+  ScriptInputsDefault:
+    animationAsset: true
+    heavyAnimationAsset: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      bitmoji3dComponent: !<reference.ScriptComponent> 7a93b195-3fad-4981-91b2-dee652f908ce
+      animationPlayer: !<reference.AnimationPlayer> 7a8a92e1-9ab3-4022-b9ea-502da9c13264
+      animationAsset: !<reference.AnimationAsset> 986b30f5-a6bd-4ba3-8193-d3994ac96a2d
+      heavyAnimationAsset: !<reference.AnimationAsset> 4f1d0a2b-e18c-4930-86b4-376d3301f8d1
+  ScriptTypes:
+    "":
+      {}
+- !<ObjectPrefab/6dbd2710-9fd6-481b-8a1f-164f0e2d9aaa>
+  PackagePath: ""
+  objects:
+    - !<own> 0735aec9-ed61-4c71-8b3d-dd49fecac692
+  LazyLoading: false
+  RetainAssets: true
+- !<AnimationPlayer/7a8a92e1-9ab3-4022-b9ea-502da9c13264>
+  PrefabRemaps:
+    []
+  Name: Animation Player
+  Enabled: true
+  Autoplay: true
+  ClipRangeType: Frames
+  AnimationClips:
+    - !<AnimationClip/00000000-0000-0000-0000-000000000000>
+      AnimationAsset: !<reference> 986b30f5-a6bd-4ba3-8193-d3994ac96a2d
+      Name: Clip 0
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 105.999992
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+- !<ScriptComponent/7a93b195-3fad-4981-91b2-dee652f908ce>
+  PrefabRemaps:
+    []
+  Name: Bitmoji 3D
+  Enabled: true
+  ScriptAsset: !<reference> 7cacf1cf-7a4b-431d-9a9c-de174fb89c59
+  ScriptInputsDefault:
+    bitmojiType: true
+    friendsComponent: true
+    friendIndex: true
+    mode: true
+    bodyIndex: true
+    alignToBody: true
+    mixamoAnimation: true
+    autoDownload: true
+    castShadow: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      bitmojiType: 0
+      friendsComponent: !<reference.Component> 00000000-0000-0000-0000-000000000000
+      friendIndex: 0
+      mode: default
+      bodyIndex: 0
+      alignToBody: false
+      mixamoAnimation: true
+      autoDownload: true
+      castShadow: true
+  ScriptTypes:
+    "":
+      {}
+- !<ObjectPrefabAssetData/c4c4c215-71f1-4e44-80a8-bbed4d975bc7>
+  SourceRemaps:
+    - 091d4b53-80c3-4464-81a8-9d3a92843c98: 6a61cc01-2755-4470-8bdf-afdd643d8945
+    - 0edb83b8-aa24-4147-8665-2cbbb92f90d0: 6dbd2710-9fd6-481b-8a1f-164f0e2d9aaa
+    - 4509dcaa-bd0d-4dd1-8e68-4de7dd85139b: 7a8a92e1-9ab3-4022-b9ea-502da9c13264
+    - 51dbb1c7-4cba-44d6-9bd9-5c07fb3a15a7: 0735aec9-ed61-4c71-8b3d-dd49fecac692
+    - a5958124-a733-403b-9087-f4b89049fdf8: 39e435c8-c0bd-462b-b2ad-3e039cf15374
+    - b5a7902a-1f25-46c6-91df-9aa8f442c76d: 7a93b195-3fad-4981-91b2-dee652f908ce
+  SourceState: !<own> 6dbd2710-9fd6-481b-8a1f-164f0e2d9aaa
+- !<AssetImportMetadata/c4d8f53a-578b-4835-9232-3ae9b41ae57a>
+  ImportedAssetIds:
+    NativePackageDescriptor: !<reference> 3dcd2716-dc96-4dd6-8cd0-d864f9076ab2
+  ImporterName: NativePackageDescriptorImporter
+  PrimaryAsset: !<reference> 3dcd2716-dc96-4dd6-8cd0-d864f9076ab2
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/adb98082-e740-4f13-a8df-ebdf98154a90>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/d9e30cb9-3d7b-4db1-80ce-0f656e86abf2>
+  ImportedAssetIds:
+    AnimationAsset: !<reference> 986b30f5-a6bd-4ba3-8193-d3994ac96a2d
+  ImporterName: AnimationAssetImporter
+  PrimaryAsset: !<reference> 986b30f5-a6bd-4ba3-8193-d3994ac96a2d
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/c3e0dcc9-f05a-45ac-87ff-f9a7319586e2>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/ee29d659-ab30-49a1-b03d-4acbf18df430>
+  ImportedAssetIds:
+    {}
+  ImporterName: NativePackageImporter
+  PrimaryAsset: !<reference> 7cacf1cf-7a4b-431d-9a9c-de174fb89c59
+  PackageType: PackedNativePackageRoot
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/b4e11237-3c4e-4bc4-becb-b7f9aada504d>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/f2e0599f-6077-425b-818f-06bb799a7d0b>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> c05e93ee-d5ec-402f-a6ee-f8635404097a
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> c05e93ee-d5ec-402f-a6ee-f8635404097a
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    JavaScriptAsset: !<own> 0384c15c-a45d-4ed6-84ce-8402b12235bc
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/28613de2-d0bc-4ae3-831a-4983c1243804>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000

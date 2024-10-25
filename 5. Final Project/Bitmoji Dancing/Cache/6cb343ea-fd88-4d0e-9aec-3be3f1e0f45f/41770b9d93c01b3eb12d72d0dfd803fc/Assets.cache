@@ -1,0 +1,13 @@
+- !<AssetCache/41770b9d-93c0-1b3e-b12d-72d0dfd803fc>
+  AssetFiles:
+    2acee745-b4df-479a-9abe-dc5d1c5e68a6: 6cb343ea-fd88-4d0e-9aec-3be3f1e0f45f/41770b9d93c01b3eb12d72d0dfd803fc/Data/GTA.png
+  Assets:
+    - !<FileTexture/2acee745-b4df-479a-9abe-dc5d1c5e68a6>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 1000
+        Height: 1000
+  SourceHash: 41770b9d93c01b3eb12d72d0dfd803fc
+  FileHash: 94abfefce4221dbe6b48c9cfce5f320a
+  NativePackageItems:
+    []

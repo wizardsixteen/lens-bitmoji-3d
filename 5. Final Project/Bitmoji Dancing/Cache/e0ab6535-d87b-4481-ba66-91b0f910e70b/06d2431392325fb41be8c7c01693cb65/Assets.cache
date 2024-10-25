@@ -1,0 +1,13 @@
+- !<AssetCache/06d24313-9232-5fb4-1be8-c7c01693cb65>
+  AssetFiles:
+    d13f5bec-b510-44b1-9be5-e2340d57440f: e0ab6535-d87b-4481-ba66-91b0f910e70b/06d2431392325fb41be8c7c01693cb65/Data/Logo - Yellow.png
+  Assets:
+    - !<FileTexture/d13f5bec-b510-44b1-9be5-e2340d57440f>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 1000
+        Height: 1000
+  SourceHash: 06d2431392325fb41be8c7c01693cb65
+  FileHash: e7a7909ff95683faed384895fbc0c9d0
+  NativePackageItems:
+    []

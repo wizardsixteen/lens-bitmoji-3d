@@ -1,0 +1,13 @@
+- !<AssetCache/2fecfd05-9820-f3fd-78c3-8bc6865b4bd1>
+  AssetFiles:
+    8017a565-55fe-4bab-8a54-2e9e97135d4d: 3642909c-a1d2-4d8e-8e4e-4626a8a5d6da/2fecfd059820f3fd78c38bc6865b4bd1/Data/Riglabs - Logo - Violet.png
+  Assets:
+    - !<FileTexture/8017a565-55fe-4bab-8a54-2e9e97135d4d>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 1025
+        Height: 411
+  SourceHash: 2fecfd059820f3fd78c38bc6865b4bd1
+  FileHash: 6f1cf1814e8b8fa96dc17242fb2221b6
+  NativePackageItems:
+    []

@@ -1,0 +1,16 @@
+- !<AssetCache/c7ea2bc6-0de9-da4e-df6b-5f2001921cb2>
+  AssetFiles:
+    31117acc-ea29-4810-83c0-ee65321f8b2a: 91ae9a4d-65fc-45be-980d-59cb2bb6f22f/c7ea2bc60de9da4edf6b5f2001921cb2/Data/C_tablecloth_GEO.mesh
+  Assets:
+    - !<FileMesh/31117acc-ea29-4810-83c0-ee65321f8b2a>
+      PackagePath: ""
+      Info: !<MeshInfo/00000000-0000-0000-0000-000000000000>
+        Triangles: 192
+        Vertices: 195
+        Blendshapes:
+          []
+        Joints: 1
+  SourceHash: c7ea2bc60de9da4edf6b5f2001921cb2
+  FileHash: daa2d4ff0ad090428a7f44901045d750
+  NativePackageItems:
+    []

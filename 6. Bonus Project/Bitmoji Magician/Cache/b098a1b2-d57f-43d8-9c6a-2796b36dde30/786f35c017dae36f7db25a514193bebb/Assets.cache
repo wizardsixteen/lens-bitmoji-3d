@@ -1,0 +1,1651 @@
+- !<AssetCache/786f35c0-17da-e36f-7db2-5a514193bebb>
+  AssetFiles:
+    2cbf4e93-f7b1-4578-b8ae-53afdb8b07f8: b098a1b2-d57f-43d8-9c6a-2796b36dde30/786f35c017dae36f7db25a514193bebb/Data/Bitmoji Magician Pack Resources/Meshes/baton/Meshes/C_baton_GEO.mesh
+    8646b0cd-e171-4456-8544-679352b25128: b098a1b2-d57f-43d8-9c6a-2796b36dde30/786f35c017dae36f7db25a514193bebb/Data/Bitmoji Magician Pack Resources/Textures/baton_color.png
+    5c77726f-9060-4cc1-9843-aee3a77c35eb: b098a1b2-d57f-43d8-9c6a-2796b36dde30/786f35c017dae36f7db25a514193bebb/Data/Bitmoji Magician Pack Resources/Meshes/hat_magic/Meshes/C_hat_magic_GEO.mesh
+    88f21a14-5247-40e4-8b6e-829322cb501e: b098a1b2-d57f-43d8-9c6a-2796b36dde30/786f35c017dae36f7db25a514193bebb/Data/Bitmoji Magician Pack Resources/Textures/hat_magic_color.png
+    2efd35b2-038f-41ad-85a7-13477b4ac692: b098a1b2-d57f-43d8-9c6a-2796b36dde30/786f35c017dae36f7db25a514193bebb/Data/Bitmoji Magician Pack Resources/Meshes/table_magic/Meshes/C_table_GEO.mesh
+    75ec8ed5-623a-429e-9a35-a7eb14d8a042: b098a1b2-d57f-43d8-9c6a-2796b36dde30/786f35c017dae36f7db25a514193bebb/Data/Bitmoji Magician Pack Resources/Meshes/table_magic/Meshes/C_tablecloth_GEO.mesh
+    082d43a4-1ed6-40d5-b0fd-3ad6916d6d78: b098a1b2-d57f-43d8-9c6a-2796b36dde30/786f35c017dae36f7db25a514193bebb/Data/Bitmoji Magician Pack Resources/Textures/table_magic_color.png
+    bb2b8136-97a9-4e9b-ac32-fec03e45082f: b098a1b2-d57f-43d8-9c6a-2796b36dde30/786f35c017dae36f7db25a514193bebb/Data/.hidden/baton.ss_graph
+  Assets:
+    - !<FileMesh/2cbf4e93-f7b1-4578-b8ae-53afdb8b07f8>
+      PackagePath: Bitmoji Magician Pack Resources/Meshes/baton/Meshes/C_baton_GEO
+      Info: !<MeshInfo/00000000-0000-0000-0000-000000000000>
+        Triangles: 288
+        Vertices: 312
+        Blendshapes:
+          []
+        Joints: 1
+    - !<FileTexture/8646b0cd-e171-4456-8544-679352b25128>
+      PackagePath: Bitmoji Magician Pack Resources/Textures/baton_color
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 128
+        Height: 128
+    - !<FileMesh/5c77726f-9060-4cc1-9843-aee3a77c35eb>
+      PackagePath: Bitmoji Magician Pack Resources/Meshes/hat_magic/Meshes/C_hat_magic_GEO
+      Info: !<MeshInfo/00000000-0000-0000-0000-000000000000>
+        Triangles: 420
+        Vertices: 479
+        Blendshapes:
+          []
+        Joints: 1
+    - !<FileTexture/88f21a14-5247-40e4-8b6e-829322cb501e>
+      PackagePath: Bitmoji Magician Pack Resources/Textures/hat_magic_color
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 1024
+        Height: 1024
+    - !<FileMesh/2efd35b2-038f-41ad-85a7-13477b4ac692>
+      PackagePath: Bitmoji Magician Pack Resources/Meshes/table_magic/Meshes/C_table_GEO
+      Info: !<MeshInfo/00000000-0000-0000-0000-000000000000>
+        Triangles: 156
+        Vertices: 175
+        Blendshapes:
+          []
+        Joints: 1
+    - !<FileMesh/75ec8ed5-623a-429e-9a35-a7eb14d8a042>
+      PackagePath: Bitmoji Magician Pack Resources/Meshes/table_magic/Meshes/C_tablecloth_GEO
+      Info: !<MeshInfo/00000000-0000-0000-0000-000000000000>
+        Triangles: 192
+        Vertices: 195
+        Blendshapes:
+          []
+        Joints: 1
+    - !<FileTexture/082d43a4-1ed6-40d5-b0fd-3ad6916d6d78>
+      PackagePath: Bitmoji Magician Pack Resources/Textures/table_magic_color
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 1024
+        Height: 1024
+    - !<Material/0ed73299-1894-4e82-947c-0731b42c662a>
+      PackagePath: Bitmoji Magician Pack Resources/Meshes/baton/Material/baton
+      PassesInfo:
+        - !<own> dd0c9958-f092-4b90-a93c-ba6528eaad9a
+    - !<ShaderGraphPass/bb2b8136-97a9-4e9b-ac32-fec03e45082f>
+      PackagePath: .hidden/baton
+      DefaultDefines:
+        - NODE_27_DROPLIST_ITEM 0
+        - NODE_13_DROPLIST_ITEM 0
+        - NODE_49_DROPLIST_ITEM 0
+        - NODE_38_DROPLIST_ITEM 0
+        - NODE_69_DROPLIST_ITEM 0
+        - NODE_181_DROPLIST_ITEM 0
+        - NODE_184_DROPLIST_ITEM 0
+      DefaultProperties:
+        Port_AO_N036:
+          typeIdx: 4
+          value: {x: 1.000000, y: 0.999969, z: 0.999985}
+        Port_Column3_N333:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Default_N113:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+        Port_Default_N204:
+          typeIdx: 1
+          value: 1.000000
+        Port_Default_N369:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_Depth_N004:
+          typeIdx: 1
+          value: 1.000000
+        Port_Emissive_N036:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_FinalColor1_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor2_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor3_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_GSplatPointSize_N004:
+          typeIdx: 1
+          value: 0.000000
+        Port_Input1_N002:
+          typeIdx: 1
+          value: 1.000000
+        Port_Input1_N044:
+          typeIdx: 1
+          value: 1.000000
+        Port_Input2_N072:
+          typeIdx: 1
+          value: 1.000000
+        Port_LODValue_N025:
+          typeIdx: 1
+          value: 0.000000
+        Port_LODValue_N026:
+          typeIdx: 1
+          value: 0.000000
+        Port_LODValue_N029:
+          typeIdx: 1
+          value: 0.000000
+        Port_LODValue_N030:
+          typeIdx: 1
+          value: 0.000000
+        Port_Metallic_N036:
+          typeIdx: 1
+          value: 0.000000
+        Port_RayDirection_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_RayOrigin_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_RotationAngle_N333:
+          typeIdx: 1
+          value: 0.000000
+        Port_RotationAxis_N333:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_RotationXYZ_N333:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Roughness_N036:
+          typeIdx: 1
+          value: 0.000000
+        Port_SpecularAO_N036:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Speed_N022:
+          typeIdx: 1
+          value: 1.000000
+        Port_Speed_N063:
+          typeIdx: 1
+          value: 1.000000
+        Port_Strength1_N200:
+          typeIdx: 1
+          value: 1.000000
+        Port_Strength2_N200:
+          typeIdx: 1
+          value: 1.000000
+        Port_Value2_N073:
+          typeIdx: 1
+          value: 1.000000
+        Port_Value3_N073:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N073:
+          typeIdx: 1
+          value: 0.000000
+        Port_WorldNormal_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_WorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_WorldTangent_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+      PassUiData: !<PassUiData/00000000-0000-0000-0000-000000000000>
+        ExtraDefines:
+          - SC_ENABLE_RT_CASTER
+          - SC_ENABLE_RT_RECEIVER
+        PassBindings:
+          - mLabel: Graph Parameters
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Vertex Color
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the purpose for which vertex color will be used. Requires vertex color to be supplied by the mesh.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: None
+                mType: DefineSelectValue
+                mName: NODE_38_DROPLIST_ITEM 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Base Color
+                mType: DefineSelectValue
+                mName: NODE_38_DROPLIST_ITEM 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Emissive
+                mType: DefineSelectValue
+                mName: NODE_38_DROPLIST_ITEM 2
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: AO
+                mType: DefineSelectValue
+                mName: NODE_38_DROPLIST_ITEM 3
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: Base Color
+            mType: Property
+            mName: baseColor
+            mWidget: color
+            mHint: |-
+              Property: baseColor
+              
+              Specifies the base color (albedo) of the material if the 'Base Textre' is disabled. 
+              Multiplied with the 'Base Texture' otherwise.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Base Texture
+            mType: Define
+            mName: Tweak_N121
+            mWidget: group_start
+            mHint: |-
+              Define: Tweak_N121
+              
+              Most materials use a base texture (albedo), but disabling it means the base texture will be considered white, and 'Base Color' will solely control the color.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: baseTex
+            mWidget: texture_group
+            mHint: "Property: baseTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture UV
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the UV set used as the base on top of which the transform is applied.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Mesh UV 0
+                mType: DefineSelectValue
+                mName: NODE_27_DROPLIST_ITEM 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mesh UV 1
+                mType: DefineSelectValue
+                mName: NODE_27_DROPLIST_ITEM 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 2
+                mType: DefineSelectValue
+                mName: NODE_27_DROPLIST_ITEM 2
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 3
+                mType: DefineSelectValue
+                mName: NODE_27_DROPLIST_ITEM 3
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: Tweak_N121
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Opacity Texture
+            mType: Define
+            mName: Tweak_N308
+            mWidget: group_start
+            mHint: |-
+              Define: Tweak_N308
+              
+              Normally, the Base Texture's alpha is taken as opacity. Enabling this allows you to define a separate greyscale opacity texture. 
+              The 'Opacity Texture' value will be multiplied with the Base Texture's alpha (which is 1 for textures without alpha) to get the final opacity. 
+              'Opacity Texture' is only available if 'Blend Mode' is not 'Disabled'.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: opacityTex
+            mWidget: texture_group
+            mHint: "Property: opacityTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture UV
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the UV set used as the base on top of which the transform is applied.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Mesh UV 0
+                mType: DefineSelectValue
+                mName: NODE_69_DROPLIST_ITEM 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mesh UV 1
+                mType: DefineSelectValue
+                mName: NODE_69_DROPLIST_ITEM 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 2
+                mType: DefineSelectValue
+                mName: NODE_69_DROPLIST_ITEM 2
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 3
+                mType: DefineSelectValue
+                mName: NODE_69_DROPLIST_ITEM 3
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: Tweak_N308
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Recolor
+            mType: Define
+            mName: Tweak_N37
+            mWidget: group_start
+            mHint: |-
+              Define: Tweak_N37
+              
+              Recolor replaces colors in the base texture. 
+              This is useful for adding variety to assets, ex: recolor a red shirt with a green logo to a blue shirt with a black logo, or any other color combination. 
+              Where the base texture is red, you will get whatever color you set in Recolor Red, and same thing for the green and blue channels of the base texture. 
+              This also works in combination if the base color is not a pure red, green or blue color.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Recolor Red
+            mType: Property
+            mName: recolorRed
+            mWidget: color
+            mHint: "Property: recolorRed"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Recolor Green
+            mType: Property
+            mName: recolorGreen
+            mWidget: color
+            mHint: "Property: recolorGreen"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Recolor Blue
+            mType: Property
+            mName: recolorBlue
+            mWidget: color
+            mHint: "Property: recolorBlue"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: Tweak_N37
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Normal Map
+            mType: Define
+            mName: Tweak_N354
+            mWidget: group_start
+            mHint: |-
+              Define: Tweak_N354
+              
+              Enables the normal map texture and normal mapping. 
+              When this is disabled, the per pixel normal is solely determined by the interpolated vertex normals.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: normalTex
+            mWidget: texture_group
+            mHint: "Property: normalTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture UV
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the UV set used for sampling this texture.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Mesh UV 0
+                mType: DefineSelectValue
+                mName: NODE_181_DROPLIST_ITEM 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mesh UV 1
+                mType: DefineSelectValue
+                mName: NODE_181_DROPLIST_ITEM 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 2
+                mType: DefineSelectValue
+                mName: NODE_181_DROPLIST_ITEM 2
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 3
+                mType: DefineSelectValue
+                mName: NODE_181_DROPLIST_ITEM 3
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: Detail Normal
+            mType: Define
+            mName: Tweak_N218
+            mWidget: group_start
+            mHint: |-
+              Define: Tweak_N218
+              
+              Detail normal mapping perturbs the base normal map by a detail normal map.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture
+            mType: Property
+            mName: detailNormalTex
+            mWidget: texture_group
+            mHint: "Property: detailNormalTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Texture UV
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the UV set used for sampling this texture.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Mesh UV 0
+                mType: DefineSelectValue
+                mName: NODE_184_DROPLIST_ITEM 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mesh UV 1
+                mType: DefineSelectValue
+                mName: NODE_184_DROPLIST_ITEM 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 2
+                mType: DefineSelectValue
+                mName: NODE_184_DROPLIST_ITEM 2
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 3
+                mType: DefineSelectValue
+                mName: NODE_184_DROPLIST_ITEM 3
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: Tweak_N218
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: Tweak_N354
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Transformed UV 2
+            mType: Define
+            mName: Tweak_N67
+            mWidget: group_start
+            mHint: |-
+              Define: Tweak_N67
+              
+              Allows tiling and animation of texture coordinates.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Source
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the UV set used as the base on top of which the transform is applied.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Mesh UV 0
+                mType: DefineSelectValue
+                mName: NODE_13_DROPLIST_ITEM 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mesh UV 1
+                mType: DefineSelectValue
+                mName: NODE_13_DROPLIST_ITEM 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Screen UV
+                mType: DefineSelectValue
+                mName: NODE_13_DROPLIST_ITEM 2
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: Scale
+            mType: Property
+            mName: uv2Scale
+            mWidget: spinbox
+            mHint: |-
+              Property: uv2Scale
+              
+              Allows tiling of textures.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Offset
+            mType: Property
+            mName: uv2Offset
+            mWidget: spinbox
+            mHint: |-
+              Property: uv2Offset
+              
+              Allows shifting of textures, or controls the speed of scrolling if animation is enabled. 
+              If animation is enabled, the speed is 'Offset' UVs per second. So if 'Offset' is 2, the texture will scroll through two complete times per second.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Animation
+            mType: Define
+            mName: uv2EnableAnimation
+            mWidget: checkbox
+            mHint: |-
+              Define: uv2EnableAnimation
+              
+              If this is enabled, the UV's will scroll. In this case the Offset specifies the speed of scrolling. 
+              The speed is 'Offset' UVs per second. So if 'Offset' is 2, the texture will scroll through two complete times per second.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: Tweak_N67
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Transformed UV 3
+            mType: Define
+            mName: Tweak_N11
+            mWidget: group_start
+            mHint: |-
+              Define: Tweak_N11
+              
+              Allows tiling and animation of texture coordinates.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Source
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: Specifies the UV set used as the base on top of which the transform is applied.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Mesh UV 0
+                mType: DefineSelectValue
+                mName: NODE_49_DROPLIST_ITEM 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Mesh UV 1
+                mType: DefineSelectValue
+                mName: NODE_49_DROPLIST_ITEM 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Screen UV
+                mType: DefineSelectValue
+                mName: NODE_49_DROPLIST_ITEM 2
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Transformed UV 2
+                mType: DefineSelectValue
+                mName: NODE_49_DROPLIST_ITEM 3
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: Scale
+            mType: Property
+            mName: uv3Scale
+            mWidget: spinbox
+            mHint: |-
+              Property: uv3Scale
+              
+              Allows tiling of textures.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Offset
+            mType: Property
+            mName: uv3Offset
+            mWidget: spinbox
+            mHint: |-
+              Property: uv3Offset
+              
+              Allows shifting of textures, or controls the speed of scrolling if animation is enabled. 
+              If animation is enabled, the speed is 'Offset' UVs per second. So if 'Offset' is 2, the texture will scroll through two complete times per second.
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Animation
+            mType: Define
+            mName: uv3EnableAnimation
+            mWidget: checkbox
+            mHint: |-
+              Define: uv3EnableAnimation
+              
+              If this is enabled, the UV's will scroll. In this case the Offset specifies the speed of scrolling. 
+              The speed is 'Offset' UVs per second. So if 'Offset' is 2, the texture will scroll through two complete times per second.
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: Tweak_N11
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Alpha Test Threshold
+            mType: Property
+            mName: alphaTestThreshold
+            mWidget: slider
+            mHint: |-
+              Property: alphaTestThreshold
+              
+              When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 0.500000
+            mValues:
+              []
+      ShaderPath: b098a1b2-d57f-43d8-9c6a-2796b36dde30/786f35c017dae36f7db25a514193bebb/Data/.hidden/804754a/baton.glsl
+      Defines:
+        []
+      Properties:
+        {}
+    - !<Material/9086783a-0e6b-475b-aea1-8240e1b0d9f4>
+      PackagePath: Bitmoji Magician Pack Resources/Meshes/hat_magic/Material/hat_magic
+      PassesInfo:
+        - !<own> 4060f1f6-1c58-4031-bbc3-d48d1d180b83
+    - !<Material/fb383a34-aa43-4cc5-9a75-22b7b9f59463>
+      PackagePath: Bitmoji Magician Pack Resources/Meshes/table_magic/Material/table_magic
+      PassesInfo:
+        - !<own> 60a75dd9-9878-4873-9a90-0a42c7b49610
+    - !<ObjectPrefab/3b773a40-36e3-432d-8ff2-25f4185fbc30>
+      PackagePath: BitmojiMagician__PLACE_IN_OBJECTS_PANEL
+      objects:
+        - !<own> 8a1e46a4-ab97-4cf5-a501-b0d52500e75c
+      LazyLoading: false
+      RetainAssets: true
+  SourceHash: 786f35c017dae36f7db25a514193bebb
+  FileHash: 6e39bd6b6d34fcc5718b9f1c988057b2
+  NativePackageItems:
+    []
+- !<RenderMeshVisual/06c0c470-a772-4d36-8246-987a7d026782>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> fb383a34-aa43-4cc5-9a75-22b7b9f59463
+  Mesh: !<reference> 2efd35b2-038f-41ad-85a7-13477b4ac692
+  Skin: !<reference> 33a64c5f-e922-4a11-9afa-cbc52a15104b
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/113179a9-1f7c-49cc-b11f-92352cceb6b4>
+  PrefabRemaps:
+    []
+  Name: table_magic_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 52642d8c-26e6-4d4f-94fc-43389657a82c
+    - !<own> d17fecb7-69fb-4bec-9267-45172ebdad56
+  Components:
+    []
+- !<SceneObject/14eaf3bc-5a30-4ba5-aa58-51e42e5bdd99>
+  PrefabRemaps:
+    []
+  Name: C_batan_bind_JNT
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: -0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 180.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<Skin/1aa33254-2a10-435b-9371-8bebf2b18dbd>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  skinBones:
+    C_hat_magic_GEO: !<reference> 1bc6bb2f-dff0-47e4-bf22-d2abcb9a3202
+    C_magicHatBase_bind_JNT: !<reference> 46e8b71d-3008-4f34-b301-44caf3305472
+    PROP: !<reference> b998b26c-28d3-42bc-a4fc-2421e5d320c3
+    bind_GRP: !<reference> a31bede5-8036-44c3-b4bf-48ce8f608758
+    geo_GRP: !<reference> a56da803-f2b9-4300-a8f1-36174c413006
+    hat_magic_GRP: !<reference> bc1441aa-e8f3-49bd-9f7a-af8564fef07f
+    hat_magic_bindrig: !<reference> 1f437524-3e83-44c5-93ee-0a2b6de465fe
+    rig_GRP: !<reference> 1bb09d4f-e19a-4c49-ab54-a866b8e50d16
+- !<SceneObject/1bb09d4f-e19a-4c49-ab54-a866b8e50d16>
+  PrefabRemaps:
+    []
+  Name: rig_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> a31bede5-8036-44c3-b4bf-48ce8f608758
+  Components:
+    []
+- !<SceneObject/1bc6bb2f-dff0-47e4-bf22-d2abcb9a3202>
+  PrefabRemaps:
+    []
+  Name: C_hat_magic_GEO
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 409449ae-f9f2-426a-b26a-2c76459bf1bd
+- !<SceneObject/1ce7a1ef-75c5-4961-9a59-6ce01b321b54>
+  PrefabRemaps:
+    []
+  Name: PROP
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 90.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> b80d3616-97d0-4a6f-a130-f1040a61877e
+    - !<own> 3bb8f460-e76e-40ee-9296-695bc15990db
+  Components:
+    []
+- !<SceneObject/1f437524-3e83-44c5-93ee-0a2b6de465fe>
+  PrefabRemaps:
+    []
+  Name: hat_magic_bindrig
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: -0.461987, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.256469, y: 0.256469, z: 0.256469}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> b998b26c-28d3-42bc-a4fc-2421e5d320c3
+  Components:
+    - !<own> 1aa33254-2a10-435b-9371-8bebf2b18dbd
+- !<Skin/33a64c5f-e922-4a11-9afa-cbc52a15104b>
+  PrefabRemaps:
+    []
+  Name: component_4
+  Enabled: true
+  skinBones:
+    C_magicTable_bind_JNT: !<reference> 6e7959df-837d-49ea-8576-4a60a80508e8
+    C_table_GEO: !<reference> 52642d8c-26e6-4d4f-94fc-43389657a82c
+    C_tablecloth_GEO: !<reference> d17fecb7-69fb-4bec-9267-45172ebdad56
+    PROP: !<reference> e7178d4c-8eb3-45b6-bcf0-0cc667d19dd6
+    bind_GRP: !<reference> 747331c2-980c-4f4f-98d6-e601b63322f5
+    geo_GRP: !<reference> 70293233-b1fb-4cb3-8159-e0c0bd70f68a
+    rig_GRP: !<reference> f0f5ec4a-7b2e-4ca9-91d2-c04e353778ad
+    table_magic_GRP: !<reference> 113179a9-1f7c-49cc-b11f-92352cceb6b4
+    table_magic_bindrig: !<reference> 91a388a7-1a81-4a3f-999a-6588849ea79b
+- !<SceneObject/3bb8f460-e76e-40ee-9296-695bc15990db>
+  PrefabRemaps:
+    []
+  Name: rig_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> d1410fbe-eec1-4c51-a9f1-84c4b3e54986
+  Components:
+    []
+- !<PassInfo/4060f1f6-1c58-4031-bbc3-d48d1d180b83>
+  DepthWrite: true
+  DepthTest: true
+  DepthFunction: LessEqual
+  TwoSided: false
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    - NODE_13_DROPLIST_ITEM 0
+    - NODE_181_DROPLIST_ITEM 0
+    - NODE_184_DROPLIST_ITEM 0
+    - NODE_27_DROPLIST_ITEM 0
+    - NODE_38_DROPLIST_ITEM 0
+    - NODE_49_DROPLIST_ITEM 0
+    - NODE_69_DROPLIST_ITEM 0
+    - Tweak_N121
+  BlendMode: Disabled
+  Properties:
+    Port_AO_N036:
+      typeIdx: 4
+      value: {x: 1.000000, y: 0.999969, z: 0.999985}
+    Port_Default_N204:
+      typeIdx: 1
+      value: 1.000000
+    Port_Emissive_N036:
+      typeIdx: 4
+      value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Port_Input2_N072:
+      typeIdx: 1
+      value: 1.000000
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    baseColor:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    baseTex:
+      typeIdx: 9
+      value:
+        id: 88f21a14-5247-40e4-8b6e-829322cb501e
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: Repeat
+          wrapModeV: Repeat
+          wrapModeW: ClampToEdge
+          borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+          mipmaps: true
+        type: Texture2D
+  Pass: !<reference> bb2b8136-97a9-4e9b-ac32-fec03e45082f
+- !<RenderMeshVisual/409449ae-f9f2-426a-b26a-2c76459bf1bd>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 9086783a-0e6b-475b-aea1-8240e1b0d9f4
+  Mesh: !<reference> 5c77726f-9060-4cc1-9843-aee3a77c35eb
+  Skin: !<reference> 1aa33254-2a10-435b-9371-8bebf2b18dbd
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/46e8b71d-3008-4f34-b301-44caf3305472>
+  PrefabRemaps:
+    []
+  Name: C_magicHatBase_bind_JNT
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/52642d8c-26e6-4d4f-94fc-43389657a82c>
+  PrefabRemaps:
+    []
+  Name: C_table_GEO
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 06c0c470-a772-4d36-8246-987a7d026782
+- !<PassInfo/60a75dd9-9878-4873-9a90-0a42c7b49610>
+  DepthWrite: true
+  DepthTest: true
+  DepthFunction: LessEqual
+  TwoSided: true
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    - NODE_13_DROPLIST_ITEM 0
+    - NODE_181_DROPLIST_ITEM 0
+    - NODE_184_DROPLIST_ITEM 0
+    - NODE_27_DROPLIST_ITEM 0
+    - NODE_38_DROPLIST_ITEM 0
+    - NODE_49_DROPLIST_ITEM 0
+    - NODE_69_DROPLIST_ITEM 0
+    - Tweak_N121
+  BlendMode: Disabled
+  Properties:
+    Port_AO_N036:
+      typeIdx: 4
+      value: {x: 1.000000, y: 0.999969, z: 0.999985}
+    Port_Default_N204:
+      typeIdx: 1
+      value: 1.000000
+    Port_Emissive_N036:
+      typeIdx: 4
+      value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Port_Input2_N072:
+      typeIdx: 1
+      value: 1.000000
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    baseColor:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    baseTex:
+      typeIdx: 9
+      value:
+        id: 082d43a4-1ed6-40d5-b0fd-3ad6916d6d78
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: Repeat
+          wrapModeV: Repeat
+          wrapModeW: ClampToEdge
+          borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+          mipmaps: true
+        type: Texture2D
+  Pass: !<reference> bb2b8136-97a9-4e9b-ac32-fec03e45082f
+- !<RenderMeshVisual/621df573-7224-4bc5-9a53-577133ca3ca0>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 0ed73299-1894-4e82-947c-0731b42c662a
+  Mesh: !<reference> 2cbf4e93-f7b1-4578-b8ae-53afdb8b07f8
+  Skin: !<reference> dbcde15a-8018-44c9-937f-a533f392d4b0
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/6e7959df-837d-49ea-8576-4a60a80508e8>
+  PrefabRemaps:
+    []
+  Name: C_magicTable_bind_JNT
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
+- !<SceneObject/70293233-b1fb-4cb3-8159-e0c0bd70f68a>
+  PrefabRemaps:
+    []
+  Name: geo_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 113179a9-1f7c-49cc-b11f-92352cceb6b4
+  Components:
+    []
+- !<RenderMeshVisual/7350d7c4-80df-449a-9ef2-6e9d86164119>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> fb383a34-aa43-4cc5-9a75-22b7b9f59463
+  Mesh: !<reference> 75ec8ed5-623a-429e-9a35-a7eb14d8a042
+  Skin: !<reference> 33a64c5f-e922-4a11-9afa-cbc52a15104b
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/747331c2-980c-4f4f-98d6-e601b63322f5>
+  PrefabRemaps:
+    []
+  Name: bind_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 6e7959df-837d-49ea-8576-4a60a80508e8
+  Components:
+    []
+- !<SceneObject/8a1e46a4-ab97-4cf5-a501-b0d52500e75c>
+  PrefabRemaps:
+    []
+  Name: BitmojiMagician__PLACE_IN_OBJECTS_PANEL
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 1f437524-3e83-44c5-93ee-0a2b6de465fe
+    - !<own> f4023e28-9f63-4a80-87aa-adec5962e332
+    - !<own> 91a388a7-1a81-4a3f-999a-6588849ea79b
+  Components:
+    []
+- !<SceneObject/91a388a7-1a81-4a3f-999a-6588849ea79b>
+  PrefabRemaps:
+    []
+  Name: table_magic_bindrig
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -13.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.156363, y: 0.156363, z: 0.156363}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> e7178d4c-8eb3-45b6-bcf0-0cc667d19dd6
+  Components:
+    - !<own> 33a64c5f-e922-4a11-9afa-cbc52a15104b
+- !<SceneObject/92a8ad95-80f6-4ab5-9b13-d95c56c80cd5>
+  PrefabRemaps:
+    []
+  Name: baton_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> bf9c8b27-1078-4667-920b-ba6e2ee3ccfc
+  Components:
+    []
+- !<SceneObject/a31bede5-8036-44c3-b4bf-48ce8f608758>
+  PrefabRemaps:
+    []
+  Name: bind_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 46e8b71d-3008-4f34-b301-44caf3305472
+  Components:
+    []
+- !<SceneObject/a56da803-f2b9-4300-a8f1-36174c413006>
+  PrefabRemaps:
+    []
+  Name: geo_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> bc1441aa-e8f3-49bd-9f7a-af8564fef07f
+  Components:
+    []
+- !<SceneObject/b80d3616-97d0-4a6f-a130-f1040a61877e>
+  PrefabRemaps:
+    []
+  Name: geo_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 92a8ad95-80f6-4ab5-9b13-d95c56c80cd5
+  Components:
+    []
+- !<SceneObject/b998b26c-28d3-42bc-a4fc-2421e5d320c3>
+  PrefabRemaps:
+    []
+  Name: PROP
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> a56da803-f2b9-4300-a8f1-36174c413006
+    - !<own> 1bb09d4f-e19a-4c49-ab54-a866b8e50d16
+  Components:
+    []
+- !<SceneObject/bc1441aa-e8f3-49bd-9f7a-af8564fef07f>
+  PrefabRemaps:
+    []
+  Name: hat_magic_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 1bc6bb2f-dff0-47e4-bf22-d2abcb9a3202
+  Components:
+    []
+- !<SceneObject/bf9c8b27-1078-4667-920b-ba6e2ee3ccfc>
+  PrefabRemaps:
+    []
+  Name: C_baton_GEO
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 621df573-7224-4bc5-9a53-577133ca3ca0
+- !<SceneObject/d1410fbe-eec1-4c51-a9f1-84c4b3e54986>
+  PrefabRemaps:
+    []
+  Name: bind_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 14eaf3bc-5a30-4ba5-aa58-51e42e5bdd99
+  Components:
+    []
+- !<SceneObject/d17fecb7-69fb-4bec-9267-45172ebdad56>
+  PrefabRemaps:
+    []
+  Name: C_tablecloth_GEO
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 7350d7c4-80df-449a-9ef2-6e9d86164119
+- !<Skin/dbcde15a-8018-44c9-937f-a533f392d4b0>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  skinBones:
+    C_batan_bind_JNT: !<reference> 14eaf3bc-5a30-4ba5-aa58-51e42e5bdd99
+    C_baton_GEO: !<reference> bf9c8b27-1078-4667-920b-ba6e2ee3ccfc
+    PROP: !<reference> 1ce7a1ef-75c5-4961-9a59-6ce01b321b54
+    baton_GRP: !<reference> 92a8ad95-80f6-4ab5-9b13-d95c56c80cd5
+    baton_bindrig: !<reference> f4023e28-9f63-4a80-87aa-adec5962e332
+    bind_GRP: !<reference> d1410fbe-eec1-4c51-a9f1-84c4b3e54986
+    geo_GRP: !<reference> b80d3616-97d0-4a6f-a130-f1040a61877e
+    rig_GRP: !<reference> 3bb8f460-e76e-40ee-9296-695bc15990db
+- !<PassInfo/dd0c9958-f092-4b90-a93c-ba6528eaad9a>
+  DepthWrite: true
+  DepthTest: true
+  DepthFunction: LessEqual
+  TwoSided: false
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    - NODE_13_DROPLIST_ITEM 0
+    - NODE_181_DROPLIST_ITEM 0
+    - NODE_184_DROPLIST_ITEM 0
+    - NODE_27_DROPLIST_ITEM 0
+    - NODE_38_DROPLIST_ITEM 0
+    - NODE_49_DROPLIST_ITEM 0
+    - NODE_69_DROPLIST_ITEM 0
+    - Tweak_N121
+  BlendMode: Disabled
+  Properties:
+    Port_AO_N036:
+      typeIdx: 4
+      value: {x: 1.000000, y: 0.999969, z: 0.999985}
+    Port_Default_N204:
+      typeIdx: 1
+      value: 1.000000
+    Port_Emissive_N036:
+      typeIdx: 4
+      value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Port_Input2_N072:
+      typeIdx: 1
+      value: 1.000000
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    baseColor:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    baseTex:
+      typeIdx: 9
+      value:
+        id: 8646b0cd-e171-4456-8544-679352b25128
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: Repeat
+          wrapModeV: Repeat
+          wrapModeW: ClampToEdge
+          borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+          mipmaps: true
+        type: Texture2D
+  Pass: !<reference> bb2b8136-97a9-4e9b-ac32-fec03e45082f
+- !<SceneObject/e7178d4c-8eb3-45b6-bcf0-0cc667d19dd6>
+  PrefabRemaps:
+    []
+  Name: PROP
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 70293233-b1fb-4cb3-8159-e0c0bd70f68a
+    - !<own> f0f5ec4a-7b2e-4ca9-91d2-c04e353778ad
+  Components:
+    []
+- !<SceneObject/f0f5ec4a-7b2e-4ca9-91d2-c04e353778ad>
+  PrefabRemaps:
+    []
+  Name: rig_GRP
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 747331c2-980c-4f4f-98d6-e601b63322f5
+  Components:
+    []
+- !<SceneObject/f4023e28-9f63-4a80-87aa-adec5962e332>
+  PrefabRemaps:
+    []
+  Name: baton_bindrig
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 13.000000, y: 3.198936, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: -19.455591}
+    scale: {x: 0.196354, y: 0.196354, z: 0.196354}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 1ce7a1ef-75c5-4961-9a59-6ce01b321b54
+  Components:
+    - !<own> dbcde15a-8018-44c9-937f-a533f392d4b0

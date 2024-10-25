@@ -1,0 +1,13 @@
+- !<AssetCache/c1bd2a3c-f20a-8867-2cdc-43baf1a9d4a1>
+  AssetFiles:
+    e6f49232-6c38-4499-b636-cbf61165e158: 04227d16-a5ff-4035-8d55-1df4348eaa5b/c1bd2a3cf20a88672cdc43baf1a9d4a1/Data/Logo - Red.png
+  Assets:
+    - !<FileTexture/e6f49232-6c38-4499-b636-cbf61165e158>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 1000
+        Height: 1000
+  SourceHash: c1bd2a3cf20a88672cdc43baf1a9d4a1
+  FileHash: 39b395e31405f623adb4eba559eb6151
+  NativePackageItems:
+    []

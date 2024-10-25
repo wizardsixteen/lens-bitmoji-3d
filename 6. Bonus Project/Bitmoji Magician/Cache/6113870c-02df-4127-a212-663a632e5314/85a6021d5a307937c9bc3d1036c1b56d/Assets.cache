@@ -1,0 +1,13 @@
+- !<AssetCache/85a6021d-5a30-7937-c9bc-3d1036c1b56d>
+  AssetFiles:
+    082d43a4-1ed6-40d5-b0fd-3ad6916d6d78: 6113870c-02df-4127-a212-663a632e5314/85a6021d5a307937c9bc3d1036c1b56d/Data/table_magic_color.png
+  Assets:
+    - !<FileTexture/082d43a4-1ed6-40d5-b0fd-3ad6916d6d78>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 1024
+        Height: 1024
+  SourceHash: 85a6021d5a307937c9bc3d1036c1b56d
+  FileHash: e942a2410e68d5d7cd93686d7d0d8e31
+  NativePackageItems:
+    []
